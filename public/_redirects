@@ -1,3 +1,12 @@
+/portfolio.php project=gps /portfolio/gps/ 301
+/portfolio.php project=wikihow /portfolio/wikihow/ 301
+/portfolio.php project=gotonichols /portfolio/gotonichols/ 301
+/portfolio.php project=easyreaders /portfolio/easyreaders/ 301
+/portfolio.php project=upfront /portfolio/upfront/ 301
+/portfolio.php project=sherpa /portfolio/sherpa/ 301
+/portfolio.php project=r4g /portfolio/r4g/ 301
+/portfolio.php project=officedragon /portfolio/officedragon/ 301
+/portfolio.php project=brighterplanet /portfolio/brighterplanet/ 301
 /index.php / 301
 /portfolio.php /#work 301
 /scripts/randomQuote.php /archive/ 301

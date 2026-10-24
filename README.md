@@ -9,6 +9,9 @@ database, build dependencies, or active business/contact form is required.
 Connect this repository to Netlify, use branch `main`, and publish `public`.
 The repository's `netlify.toml` supplies the publish directory.
 `public/_redirects` preserves `/index.php` and `/portfolio.php` as HTTP redirects.
+Although the landing page looks like a single page, its mobile/no-JavaScript
+portfolio links originally rendered nine distinct query-driven detail pages.
+All nine are preserved under `/portfolio/`, with query-specific redirects.
 The obsolete random-quote endpoint leads to an archival notice; its polling
 timer and contact form have been removed. The initial quote remains visible.
 
@@ -24,8 +27,10 @@ pass live checks. Preserve unrelated DNS and mail records.
 
 ## Maintenance and validation
 
-The archive contains downloaded HTML, CSS, JS, portfolio thumbnails and
-full-size lightbox images, and fonts. `migration-manifest.json` records original
+The archive contains downloaded HTML, CSS, JS, portfolio detail pages,
+thumbnails and full-size lightbox images, and fonts. The existing licensed
+jQuery dependency is local rather than fetched from a third-party CDN.
+`migration-manifest.json` records original
 URLs, local paths, media types, and output hashes. Edit the frozen public files
 directly; do not restore a dependency on the retired origin.
 

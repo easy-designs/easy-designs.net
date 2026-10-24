@@ -1,4 +1,4 @@
-name: Validate static archive
+name: Validate and deploy static archive
 
 on:
   push:
@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -18,10 +22,13 @@ jobs:
         run: |
           python3 - <<'PY'
           import json
+          import re
           from pathlib import Path
           root = Path("public")
           assert (root / "index.html").is_file(), "Missing archive home"
           assert (root / "_redirects").is_file(), "Missing legacy redirects"
+          assert (root / "CNAME").read_text().strip() == "easy-designs.net"
+          assert (root / ".nojekyll").is_file()
           for private in ("public", "netlify.toml", "migration-manifest.json"):
               assert not (root / private).exists(), f"Unexpected source/output copy: {private}"
           files = [path for path in root.rglob("*") if path.is_file()]
@@ -37,5 +44,41 @@ jobs:
                       assert "<?php" not in text, path
           manifest = json.loads(Path("migration-manifest.json").read_text())
           assert not manifest.get("failures"), manifest.get("failures")
+          fallback = (root / "404.html").read_text()
+          projects = json.loads(re.search(r"var projects = (\{.*?\});", fallback, re.S)[1])
+          routes = json.loads(re.search(r"var routes = (\{.*?\});", fallback, re.S)[1])
+          expected_projects, expected_routes = {}, {}
+          for line in (root / "_redirects").read_text().splitlines():
+              fields = line.split()
+              if len(fields) == 4:
+                  assert fields[0] == "/portfolio.php" and fields[1].startswith("project=")
+                  expected_projects[fields[1].split("=", 1)[1]] = fields[2]
+              else:
+                  source, target, status = fields
+                  assert status == "301"
+                  expected_routes[source] = target
+          assert projects == expected_projects, "Portfolio mappings differ"
+          assert routes == expected_routes, "Legacy route mappings differ"
+          for target in [*projects.values(), *routes.values()]:
+              assert target.startswith("/") and not target.startswith("//")
+              assert (root / target.split("#", 1)[0].lstrip("/") / "index.html").is_file(), target
           print(f"Validated {len(files)} public files")
           PY
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

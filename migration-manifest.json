@@ -1,0 +1,270 @@
+{
+  "domain": "easy-designs.net",
+  "files": {
+    "https://easy-designs.net/": {
+      "path": "index.html",
+      "content_type": "text/html",
+      "bytes": 8750,
+      "sha256": "366ad9dad9b472a840ca7f104884e736b823fc8aaea28222a15929d9d572eb68"
+    },
+    "https://easy-designs.net/img/portfolio/easy-readers-s.jpg": {
+      "path": "img/portfolio/easy-readers-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 11688,
+      "sha256": "1acadf5588c3e01bb2357aecb80e706419d2cebca9eb4c7cd2e9dbd4a236cd1b"
+    },
+    "https://easy-designs.net/css/main.css": {
+      "path": "css/main.css",
+      "content_type": "text/css",
+      "bytes": 18826,
+      "sha256": "22d87b8525b51ddcf56f8476e927f06075df6335840b8ca3770a6bd873c3cb5e"
+    },
+    "https://easy-designs.net/img/portfolio/gotonichols-s.jpg": {
+      "path": "img/portfolio/gotonichols-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 18901,
+      "sha256": "40f79f81ce696d2947bafaeacd4a383156e65d67a9809f27e138d7b33a72581c"
+    },
+    "https://easy-designs.net/img/portfolio/brighterplanet.png": {
+      "path": "img/portfolio/brighterplanet.png",
+      "content_type": "image/png",
+      "bytes": 67898,
+      "sha256": "dbaa1853c365feec7877a790da2af824d10cfd564aee843e306dc78e53511cc3"
+    },
+    "https://easy-designs.net/img/portfolio/brighterplanet-s.jpg": {
+      "path": "img/portfolio/brighterplanet-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 17950,
+      "sha256": "7b93bf8bc98f466f89ba284010a02829663c8a86175e4a70298dc84f8743c43f"
+    },
+    "https://easy-designs.net/img/portfolio/easy-readers.png": {
+      "path": "img/portfolio/easy-readers.png",
+      "content_type": "image/png",
+      "bytes": 144203,
+      "sha256": "436e51e93ab26137bbef905d3bcc84db9fdb01fbc4bd976fc9407b7b375b786a"
+    },
+    "https://easy-designs.net/img/portfolio/gps.png": {
+      "path": "img/portfolio/gps.png",
+      "content_type": "image/png",
+      "bytes": 90472,
+      "sha256": "6e42302799a244f4af035d97939ba8344bf5d4540cc6b9161234611a32f671ec"
+    },
+    "https://easy-designs.net/img/portfolio/gps-s.jpg": {
+      "path": "img/portfolio/gps-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 23120,
+      "sha256": "7b862c1684d86a3d27db7b842c95bebdb7b2acf955863fd3e16efe82e5149745"
+    },
+    "https://easy-designs.net/img/portfolio/gotonichols.png": {
+      "path": "img/portfolio/gotonichols.png",
+      "content_type": "image/png",
+      "bytes": 103348,
+      "sha256": "0f5a0eb11fb2c6105f4e45d5c99ff08fddfd12e935313c2db3ac5b0e82e8f8c0"
+    },
+    "https://easy-designs.net/img/portfolio/officedragon-s.jpg": {
+      "path": "img/portfolio/officedragon-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 18992,
+      "sha256": "c778733480c517672c69a460ec3bd3cab501cc76abc8e7bbb90b594c84e9d971"
+    },
+    "https://easy-designs.net/img/portfolio/officedragon.png": {
+      "path": "img/portfolio/officedragon.png",
+      "content_type": "image/png",
+      "bytes": 98661,
+      "sha256": "c43628359ce020d44de88c2586e3c9ed779e0aa4dea81c3ec610171f083363bb"
+    },
+    "https://easy-designs.net/img/portfolio/retreats4geeks-s.jpg": {
+      "path": "img/portfolio/retreats4geeks-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 16137,
+      "sha256": "ea2da8c96fa53c2036e31dacd72db63cdc228adc9f7598e18d1e724f017953e7"
+    },
+    "https://easy-designs.net/img/portfolio/sherpa-s.jpg": {
+      "path": "img/portfolio/sherpa-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 17026,
+      "sha256": "52891a4d2385cdd5303f9ea5e51739fd90ceff1bbe14bfb895425ad56e548542"
+    },
+    "https://easy-designs.net/img/portfolio/upfront-support-s.jpg": {
+      "path": "img/portfolio/upfront-support-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 13715,
+      "sha256": "fb88f86ef2276db1e0c8a57f7cb9b82c864020074d148835b5e9434f0f3402f0"
+    },
+    "https://easy-designs.net/img/portfolio/retreats4geeks.png": {
+      "path": "img/portfolio/retreats4geeks.png",
+      "content_type": "image/png",
+      "bytes": 116814,
+      "sha256": "1432e5cdee611e7c3fc6454c3f5c08db0c34eff57cd54abab85dcb13ed32f5e9"
+    },
+    "https://easy-designs.net/img/portfolio/sherpa.png": {
+      "path": "img/portfolio/sherpa.png",
+      "content_type": "image/png",
+      "bytes": 128143,
+      "sha256": "04a1d18249e11d3d1e86a239135d69c4e972d9b673fc245f6fb7457605266b15"
+    },
+    "https://easy-designs.net/img/portfolio/wikihow-s.jpg": {
+      "path": "img/portfolio/wikihow-s.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 15630,
+      "sha256": "f3fc34e9c334991c6a7b9055aa0289eb69844e36dafee5d94b8ee2a4d027c89d"
+    },
+    "https://easy-designs.net/img/portfolio/upfront-support.png": {
+      "path": "img/portfolio/upfront-support.png",
+      "content_type": "image/png",
+      "bytes": 61503,
+      "sha256": "900257522c5a09c815c0ddb2bb6fb67445253eca3c8886865cc1d2540aae527d"
+    },
+    "https://easy-designs.net/js/main.js": {
+      "path": "js/main.js",
+      "content_type": "application/javascript",
+      "bytes": 5603,
+      "sha256": "0918176b121858a8fee43994433d2e0974df97899e071b906ac89e950cc095e4"
+    },
+    "https://easy-designs.net/img/portfolio/wikihow.png": {
+      "path": "img/portfolio/wikihow.png",
+      "content_type": "image/png",
+      "bytes": 132075,
+      "sha256": "728e190e6010b69e144ef6a39630598ce1c4143f44378ff419449807b17ea739"
+    },
+    "https://easy-designs.net/css/img/code-and-creativity.svg": {
+      "path": "css/img/code-and-creativity.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 1849,
+      "sha256": "2b41de6113fd31f4b3539a392a3b13fae9abeffa638b3242c3f8dd207193a965"
+    },
+    "https://easy-designs.net/css/img/code-and-creativity.png": {
+      "path": "css/img/code-and-creativity.png",
+      "content_type": "image/png",
+      "bytes": 4629,
+      "sha256": "863a4ccf5825c05217f4fffd42504c7b441f9efcfd8e33d47d87a818a23fc7f4"
+    },
+    "https://easy-designs.net/css/img/cha-device-lab.png": {
+      "path": "css/img/cha-device-lab.png",
+      "content_type": "image/png",
+      "bytes": 10890,
+      "sha256": "47be41e48440f83b70ce6ba4e2270bc7115390c587b85d0e90b37aca664e17e6"
+    },
+    "https://easy-designs.net/css/img/blog.svg": {
+      "path": "css/img/blog.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 3237,
+      "sha256": "e1b4e42172c6ac278489dda7da298ca1b785e0342a30b87af5b29dc0b38cc694"
+    },
+    "https://easy-designs.net/css/img/blog.png": {
+      "path": "css/img/blog.png",
+      "content_type": "image/png",
+      "bytes": 1332,
+      "sha256": "df679be7a63ed4128342296d47cb8d6ff100f212dd6a07e5c1dfd5ccc1871ed7"
+    },
+    "https://easy-designs.net/css/img/cha-device-lab.svg": {
+      "path": "css/img/cha-device-lab.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 33449,
+      "sha256": "456c4aa4abd15ac5b8dcb92d2912758d303be3aed2e9fea4b916adedef3808ed"
+    },
+    "https://easy-designs.net/css/img/facebook.png": {
+      "path": "css/img/facebook.png",
+      "content_type": "image/png",
+      "bytes": 307,
+      "sha256": "a7edb9876ae698f37fbdbb18caae252566db4e1e944d79898381865f14a812ca"
+    },
+    "https://easy-designs.net/css/img/facebook.svg": {
+      "path": "css/img/facebook.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 7390,
+      "sha256": "65c315befdb2d1004a81e727e915b508129b9baad0c1f8ec72fe85ce336fb555"
+    },
+    "https://easy-designs.net/css/img/github.svg": {
+      "path": "css/img/github.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 2932,
+      "sha256": "34fad24ff93a6ca97ca4c787922c231fbace387403f8c41db8c2265ceda5b4e2"
+    },
+    "https://easy-designs.net/css/img/github.png": {
+      "path": "css/img/github.png",
+      "content_type": "image/png",
+      "bytes": 608,
+      "sha256": "7ba417b55e8af8c4e9595cace1e72b202863b57fa1f7244819430cb13cbc920c"
+    },
+    "https://easy-designs.net/css/img/logo.png": {
+      "path": "css/img/logo.png",
+      "content_type": "image/png",
+      "bytes": 12961,
+      "sha256": "213c941d76954fda19c8d0033c29b5361b68b660fe526cbe6c39a4a99c6949bc"
+    },
+    "https://easy-designs.net/css/img/easy-logo-adaptive.png": {
+      "path": "css/img/easy-logo-adaptive.png",
+      "content_type": "image/png",
+      "bytes": 19314,
+      "sha256": "25e2c43eb068c7176f8d6262c037f69f2dce8b01702c337135f95779559f0389"
+    },
+    "https://easy-designs.net/css/img/logo.svg": {
+      "path": "css/img/logo.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 15098,
+      "sha256": "b20461f13d903f234d3cc6976877a009aeea0fae219cc4914b18bd85aff02928"
+    },
+    "https://easy-designs.net/css/img/readers.png": {
+      "path": "css/img/readers.png",
+      "content_type": "image/png",
+      "bytes": 1660,
+      "sha256": "4ab9793bc29813aec21fd841c5eafc92ab24628e2d90275bb480fed0dae713b4"
+    },
+    "https://easy-designs.net/css/img/r4g.svg": {
+      "path": "css/img/r4g.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 6717,
+      "sha256": "cdb2a21d16ba9464035399abed7ab762f8fdea023f071a1a7a432c108bb5e407"
+    },
+    "https://easy-designs.net/css/img/r4g.png": {
+      "path": "css/img/r4g.png",
+      "content_type": "image/png",
+      "bytes": 2046,
+      "sha256": "5646da275a0b5ebba4611eb742844695a28948fb3ffbb2d69bb36cc281fd807a"
+    },
+    "https://easy-designs.net/css/img/twitter.png": {
+      "path": "css/img/twitter.png",
+      "content_type": "image/png",
+      "bytes": 368,
+      "sha256": "aaf88835ab135231fd2fffff79f297afc288656707c56151ea6bf3a5454b60b9"
+    },
+    "https://easy-designs.net/css/img/readers.svg": {
+      "path": "css/img/readers.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 112450,
+      "sha256": "c2b1b4060725ba1f8be991718220426ac1e296266422cacd0457091f2cd1b9ce"
+    },
+    "https://easy-designs.net/css/img/twitter.svg": {
+      "path": "css/img/twitter.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 1485,
+      "sha256": "02f76122d5e568f3073b194d479438d681b8352efa0ff76bfddb4ec0b4ea5fe4"
+    },
+    "https://easy-designs.net/fonts/easy-designs.eot": {
+      "path": "fonts/easy-designs.eot",
+      "content_type": "application/vnd.ms-fontobject",
+      "bytes": 9128,
+      "sha256": "20de87f7edae7fcb2fe9027ff73fd0ff052e6ef8c528173dc91592ec9dc3ab76"
+    },
+    "https://easy-designs.net/fonts/easy-designs.ttf": {
+      "path": "fonts/easy-designs.ttf",
+      "content_type": "application/font-sfnt",
+      "bytes": 8944,
+      "sha256": "a4535a4f8feb88accb1f25ae99ca578d49d1f440657a9c449647bf9663c2be21"
+    },
+    "https://easy-designs.net/fonts/easy-designs.woff": {
+      "path": "fonts/easy-designs.woff",
+      "content_type": "application/font-woff",
+      "bytes": 9020,
+      "sha256": "53e2a464681493c07f36c0e8800f1ead0ad817892e8403de87f262093973cc96"
+    },
+    "https://easy-designs.net/fonts/easy-designs.svg": {
+      "path": "fonts/easy-designs.svg",
+      "content_type": "image/svg+xml",
+      "bytes": 24858,
+      "sha256": "82f0c6cd417fca45922ba4fb41b725fb35fcdc60e0202be9a51dd305fcd2b9fe"
+    }
+  },
+  "failures": {}
+}
